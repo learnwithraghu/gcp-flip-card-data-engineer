@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GCP Data Engineering Flip Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__text">
+      <p class="badge">KodeKloud</p>
+      <h1>GCP Data Engineering Flip Card</h1>
+      <p class="subtitle">High-yield exam cues distilled into interactive Q/A flash cards.</p>
+    </div>
+    <div class="controls">
+      <button id="refresh-btn" type="button">🔄 Refresh Cards</button>
+      <p class="refresh-hint">Get fresh questions and reattempt familiar ones every refresh.</p>
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="grid" id="card-grid" aria-live="polite">
+      <!-- Cards injected by script.js -->
+    </section>
+
+    <section class="how-to">
+      <h2>Flip Tip</h2>
+      <p>Click or tap any card to flip it. Use Refresh to reshuffle and swap in new questions each time.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
